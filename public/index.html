@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Astroly - Descubra seu Signo</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <!-- Elemento especial para segurar a foto da paisagem de fundo -->
+  <div id="fundo-paisagem"></div>
+
+  <div class="container">
+    <h1>🪐 Astroly</h1>
+    <p class="subtitulo">Descubra o seu signo!</p>
+
+    <div class="formulario">
+      <label for="data-nascimento">Escolha sua data de nascimento:</label>
+      <input type="date" id="data-nascimento" required>
+      <button id="btn-descobrir">Descobrir Signo</button>
+    </div>
+
+    <!-- Informações do signo -->
+    <div id="resultado" class="resultado-box escondido">
+      <h2 id="signo-nome"></h2>
+      <p class="frase"><strong>Características:</strong> <span id="signo-frase"></span></p>
+      <p class="conselho"><strong>Conselho:</strong> <span id="signo-conselho"></span></p>
+      <p class="compatibilidade"><strong>Combina com:</strong> <span id="signo-comp"></span></p>
+    </div>
+  </div>
+
+  <script type="module" src="/script.js"></script>
+</body>
+</html>

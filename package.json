@@ -1,0 +1,9 @@
+{
+  "name": "astroly",
+  "version": "1.0.0",
+  "description": "App de Signos Astroly",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
