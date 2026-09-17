@@ -1,6 +1,6 @@
 # ✨ Astroly
 
-Este é um aplicativo web interativo que revela o signo astrológico do usuário com base na data de nascimento, exibindo mensagens personalizadas e fundos dinâmicos em alta resolução. Construído com Node.js e tecnologias web puras, e empacotado em um container isolado.
+Um projeto web simples que mostra o seu signo baseado na sua data de nascimento. Desenvolvido com Node.js e rodando via Docker.
 
 ---
 
